@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">POKEBOX USA</h3>
+            <h3 className="text-lg font-bold mb-4">YIKES! COLLECTIBLES & TCGS</h3>
             <p className="text-sm mb-4">
               Your trusted source for authentic Pokemon trading cards and accessories.
             </p>
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm">
-          <p>&copy; 2024 Pokebox USA. All rights reserved.</p>
+          <p>&copy; 2024 Yikes! Collectibles & TCGs. All rights reserved.</p>
         </div>
       </div>
     </footer>
