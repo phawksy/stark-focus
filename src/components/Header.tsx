@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       {/* Announcement Bar */}
-      <div className="bg-primary text-primary-foreground text-center py-2 text-sm">
+      <div className="bg-accent text-accent-foreground text-center py-2 text-sm font-semibold">
         FREE SHIPPING ON ORDERS OVER $99
       </div>
       

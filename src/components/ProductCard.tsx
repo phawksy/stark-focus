@@ -26,7 +26,10 @@ const ProductCard = ({
       {badge && (
         <Badge 
           variant={badgeVariant} 
-          className="absolute top-2 left-2 z-10 text-xs font-bold"
+          className={`absolute top-2 left-2 z-10 text-xs font-bold ${
+            badgeVariant === 'destructive' ? 'bg-primary text-primary-foreground' : 
+            badge === 'NEW' ? 'bg-accent text-accent-foreground' : ''
+          }`}
         >
           {badge}
         </Badge>
